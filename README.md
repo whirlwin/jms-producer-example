@@ -20,7 +20,7 @@ Start by setting up [my other project first]
 
 4. Select `Java Build Path` and `Libraries`. Click `Add external JARs...`.
 Locate `javaee.jar` (usually inside `path/to/glassfish/glassfish3/lib`). Click
-`OK`. Click `. Do the same for `gf-client.jar` and `jndi-properties.jar`. Click
+`OK`. Do the same for `gf-client.jar` and `jndi-properties.jar`. Click
 `OK`.
 
 ## Testing the application
