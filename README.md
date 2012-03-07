@@ -14,7 +14,14 @@ Start by setting up [my other project first]
 
 1. Clone this repository to your computer.
 
-2. Import as a Java project into your workspace.
+2. Import as a regular Java project into your workspace.
+
+3. Right click the project and select `Properties`.
+
+4. Select `Java Build Path` and `Libraries`. Click `Add external JARs...`.
+Locate `javaee.jar` (usually inside `path/to/glassfish/glassfish3/lib`). Click
+`OK`. Click `. Do the same for `gf-client.jar` and `jndi-properties.jar`. Click
+`OK`.
 
 ## Testing the application
 Run it. After a few seconds check the GlassFish log, usually located at
